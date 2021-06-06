@@ -1,23 +1,28 @@
 import cipher from "./cipher.js";
 
-console.log(cipher);
 
-//buttons 
+//encode
 
 function cifrar() {
- const texto = document.getElementById("myText").value
- document.getElementById("codeText").value = texto
+  const texto = document.getElementById("myText").value;
+  const offset = parseInt(document.getElementById("offset").value)
+   document.getElementById("codeText").value = cipher.encode(offset, texto)
 
 } 
-let cifrarButton = document.getElementById("cifrar");
+const cifrarButton = document.getElementById("cifrar");
 cifrarButton.addEventListener("click", cifrar);
 
+//decode
 
 function decifrar() {
-  const decifrado = document.getElementById("codeText").value
-  document.getElementById("myText").value = decifrado
-  
+  const decifrado = document.getElementById("codeText").value;
+  const offset = parseInt(document.getElementById("offset").value)
+  document.getElementById("myText").value = cipher.decode(offset, decifrado);
+
  } 
 
-let decifrarButton = document.getElementById("decifrar");
+const decifrarButton = document.getElementById("decifrar");
 decifrarButton.addEventListener("click", decifrar);
+
+//offset
+//const offset = document.getElementById("offset").value = offset;
