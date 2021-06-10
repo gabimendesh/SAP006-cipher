@@ -3,37 +3,49 @@
 
 <head>
   <meta charset="utf-8">
-  <title>safeText</title>
+  <title>.encode</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <header id="root">
-    <h1>safeText</h1>
+    <h1>.encode</h1>
   </header>
-  <main class="container">
+  <main>
+    <article>
+      <p>Somos um gerador de senhas para login, utilizando um método de cifragem de palavras,
+        <br> garantindo assim, mais segurança em seus perfis na web.
+      </p>
+    </article>
 
-    <form class="insertText">
-      <label for="myText"> Mensagem decifrada </label>
-      <input type="text" id="myText" value="">
-    </form>
+    <section>
+      <p>É muito simples, aqui vão algumas dicas:</p>
+      <ul>
+        <li>Digite algumas palavras no campo de texto</li>
+        <li>Insira o número da chave para a cifragem</li>
+        <li>E então clique no botão para cifrar ou decifrar o seu texto</li>
+        <li>Guarde sua nova senha em um lugar seguro</li>
+      </ul>
+    </section>
 
-    <form class="cipherText">
-      <label for="codeText"> Mensagem cifrada </label>
-      <input type="text" id="codeText" value="">
+    <form class="textBox">
+      <fieldset>
+        <label for="myText"> Senha decifrada </label>
+        <input type="text" id="myText" value="">
+
+        <label for="codeText"> Senha cifrada </label>
+        <input type="text" id="codeText" value="">
+      </fieldset>
     </form>
   </main>
 
-
-  <section class="offset">
-    <input type="number" id="offset" placeholder="deslocamento" min="0">
-  </section>
-
   <section class="buttons">
-    <button id="cifrar" type="submit">cifrar</button>
-    <button id="decifrar" type="submit">decrifar</button>
+    <input type="number" id="offset" placeholder="CHAVE" min="0">
+    <button id="cifrar" type="submit">CIFRAR</button>
+    <button id="decifrar" type="submit">DECIFRAR</button>
   </section>
 
   <script src="index.js" type="module"></script>
