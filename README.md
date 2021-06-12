@@ -3,12 +3,10 @@
 * [Sobre](#.encode)
 * [Resumo do projeto](#Projeto)
 * [Layout](#Layout)
-* [Instruções](#4-considerações-gerais)
+* [Instruções](#Instruções)
 * [Tecnologias utilizadas](#Tecnologias)
 ***
 
-![Logo](img/icon.png)
-    
 # .encode
 
 O .encode é um gerador de senhas para login, buscando fornecer mais segurança e praticidade para os internautas na web e em suas redes sociais.
