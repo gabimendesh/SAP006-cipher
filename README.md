@@ -23,7 +23,7 @@ Aplicação web desenvolvida durante o bootcamp da Laboratória.
 O processo de criação foi pensado buscando simplicidade e praticidade para o usuário da aplicação, onde ele pudesse de maneira rápida criar uma nova senha utilizando a cifra.
 
 ![Wireframe](img/encode1.png)
-(Figma)
+
 ![Wireframe Encode](img/encode.png)
 
 ## Instruções
