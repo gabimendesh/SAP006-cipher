@@ -42,3 +42,5 @@ E então clicar no botão para cifrar sua senha.
 - Javascript
 - CSS3
 - HTML5
+
+![EncodeFinal](img/encodeFinal.gif)
