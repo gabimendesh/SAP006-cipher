@@ -1,8 +1,5 @@
 import cipher from "./cipher.js";
 
-
-//encode
-
 function cifrar() {
   const texto = document.getElementById("myText").value;
   const offset = parseInt(document.getElementById("offset").value);
@@ -12,7 +9,6 @@ function cifrar() {
 const cifrarButton = document.getElementById("cifrar");
 cifrarButton.addEventListener("click", cifrar);
 
-//decode
 
 function decifrar() {
   const decifrado = document.getElementById("codeText").value;
