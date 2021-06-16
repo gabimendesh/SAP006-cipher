@@ -59,19 +59,19 @@ ul{
 }
 
 .textBox {
-margin-top: 40px;
+  margin-top: 40px;
 }
 
 fieldset { 
-display: flex;
-margin: auto;
-justify-content: space-between;
-width: 60vw;
-height: 175px;
-align-items: center;
-border: none;
-flex-direction: column;
-flex-wrap: wrap;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  width: 60vw;
+  height: 175px;
+  align-items: center;
+  border: none;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 input[type="text"]  {
