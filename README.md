@@ -22,9 +22,7 @@ Aplicação web desenvolvida durante o bootcamp da Laboratória.
 ## Layout
 O processo de criação foi pensado buscando simplicidade e praticidade para o usuário da aplicação, onde ele pudesse de maneira rápida criar uma nova senha utilizando a cifra.
 
-![Wireframe](img/encode1.png)
-
-![Wireframe Encode](img/encode.png)
+![Wireframe](https://ik.imagekit.io/q8vyo7feaitz/CIFRA_DE_CÉSAR_-_ENCODE_ObwNvCYEPV.png?updatedAt=1635362392039)
 
 ## Instruções
 
